@@ -1,0 +1,172 @@
+body{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/5fdfeb249d00c472c28c8e82/6f85e19a-e991-4b8a-b738-8390e0c788fe/DSC05170.jpg?format=1500w');
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center 
+}
+
+.container-1{
+    background-color: rgb(227, 228, 233);
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-2{
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.container-3{
+    text-align: center;
+    
+    
+}
+
+.container-4{
+    
+    display: flex;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    
+}
+
+#navbar li{
+    display: inline;
+    float: right;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(98, 0, 255); 
+    
+}
+
+
+.container-2 p{
+    font-size: 40px;
+    text-align: center;
+   
+}
+
+.container-2 a{
+    padding:10px 15px;
+	color: blue; 
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: lightgray;
+}
+
+
+
+
+#navbar1 ul{
+    
+    list-style: none;
+}
+
+#navbar1 li{
+    display: inline;
+}
+
+#navbar1 a{
+    font-size: 15px;
+    padding-right: 100px;
+    padding-left: 61px;
+    color: brown;
+    
+}
+
+
+
+.Information{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-sizing: border-box;
+    flex: 1;
+    background-color: white;
+    border: 1px solid red; 
+    margin-left: 150px;
+    
+} 
+
+.Contact{
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-sizing: border-box;
+    flex: 1;
+    text-align: center;
+    background-color: white;
+    border: 1px solid red; 
+    margin-right: 150px; 
+    
+}
+
+
+
+
+
+
+.post{
+    padding: 20px;
+}
+
+.Yvan{
+    padding-bottom: 15px;
+}
+
+.Yvan label{
+    display: block;
+}
+
+.Yvan input{
+    padding: 8px;
+    width: 50%;
+}
+
+.Yvan textarea{
+    padding: 8px;
+    width: 100%;
+    flex: 5;
+}
+
+
+
+#main-footer{
+    text-align: center;
+    background-color: aqua;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+
+.button:hover{
+    background-color: blue;
+    color: white;
+}
+
+#navbar a:hover{
+    color: rgb(208, 25, 95);
+}
+
+
+#navbar1 a:hover {
+    color: yellow;
+}
+
